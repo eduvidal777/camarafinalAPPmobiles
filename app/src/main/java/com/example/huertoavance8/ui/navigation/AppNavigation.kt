@@ -12,6 +12,7 @@ import com.example.huertoavance8.ui.screens.home.DetalleProductoScreen
 import com.example.huertoavance8.ui.screens.carrito.CarritoScreen
 import com.example.huertoavance8.ui.screens.home.ProductosScreen
 import com.example.huertoavance8.ui.screens.perfil.PerfilScreen
+import com.example.huertoavance8.ui.screens.perfil.QrScannerScreen
 
 @Composable
 fun AppNavigation() {
@@ -24,6 +25,8 @@ fun AppNavigation() {
         composable("carrito") { CarritoScreen(navController) }
         composable("perfil") { PerfilScreen(navController) }
         composable("productos") { ProductosScreen(navController) }
+        composable("scanner") { QrScannerScreen(navController) }
+
 
     }
 }

@@ -84,6 +84,13 @@ fun PerfilScreen(navController: NavController) {
             ) {
                 Text("Cerrar sesión 🔒")
             }
+            Button(
+                onClick = { navController.navigate("scanner") },
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text("📷 Escanear código QR")
+            }
+
         }
     }
 }

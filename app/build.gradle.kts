@@ -78,4 +78,8 @@ dependencies {
     implementation("io.coil-kt:coil-compose:2.7.0")
 
     implementation("io.coil-kt:coil-compose:2.4.0")
+
+        // ZXing para lectura de códigos QR
+    implementation("com.journeyapps:zxing-android-embedded:4.3.0")
+
 }
